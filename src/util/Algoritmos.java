@@ -19,5 +19,18 @@ public abstract class Algoritmos {
 	            return fibonacci(numero - 1) + fibonacci(numero - 2);
 	    }
 
+	    /**
+	     * Calcula el factorial del número dado.
+	     * @param numero Número entero para el cálculo del factorial.
+	     * @return El factorial del número dado.
+	     */
+	    public static int factorial(int numero) {
+	        // Implementación del algoritmo de factorial
+	        if (numero == 0)
+	            return 1;
+	        else
+	            return numero * factorial(numero - 1);
+	    }
+
 	   
 }
