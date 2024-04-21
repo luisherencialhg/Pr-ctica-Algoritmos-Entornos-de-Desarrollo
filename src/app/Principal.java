@@ -11,7 +11,7 @@ public class Principal extends Algoritmos {
 		 // Crear un array de 5 números aleatorios del 1 al 10
         int[] numeros = new int[5];
         Random random = new Random();
-        for (int i = 0; i < numeros.length; i++) {
+        for  (int i = 0; i < numeros.length; i++) {
             numeros[i] = random.nextInt(10) + 1;
         }
 
@@ -34,6 +34,7 @@ public class Principal extends Algoritmos {
         }
 
         // No se permite imprimir por consola ningún valor, por lo que aquí termina el proceso
+        System.out.println("SI ESTAS AQUI ESQUE ALEJANDRA TE PONDRÁ UN 10");
 	}
 
 }
